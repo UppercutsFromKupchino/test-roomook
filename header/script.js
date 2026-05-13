@@ -5,12 +5,16 @@ document.addEventListener('DOMContentLoaded', () => {
         const header = document.querySelector('header');
         const menuContainer = document.getElementById('menu-container');
         const menuButtons = menuContainer.querySelectorAll('img');
+        const main = document.querySelector('main');
+        const footer = document.querySelector('footer');
         
         menuContainer.addEventListener('click', () => {
             menuButtons.forEach((element) => {
                 element.classList.toggle('active');
             });
             header.classList.toggle('open-menu-mobile');
+            main.classList.toggle('open-menu-mobile');
+            footer.classList.toggle('open-menu-mobile');
         });
     }
 });

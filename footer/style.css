@@ -6,6 +6,11 @@ footer {
     align-items: center;
     gap: 24px;
 }
+footer.open-menu-mobile {
+    isolation: isolate;
+    filter: brightness(0.5);
+    pointer-events: none;
+}
 footer .menu-chips {
     display: flex;
     gap: 24px;
@@ -103,6 +108,9 @@ footer .oferta .ad {
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
+    color: #6B7280;
+}
+footer .oferta .ad a {
     color: #6B7280;
 }
 footer .footer-info .menu-chips {

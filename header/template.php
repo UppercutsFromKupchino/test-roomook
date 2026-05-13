@@ -35,10 +35,10 @@
                 <a class="chip">Гарантии</a>
                 <a class="chip">Отзывы</a>            
             </div>
-            <div class="button-application">
+            <button class="button-application">
                 <div class="active text">Оставить заявку</div>
                 <div class="loader"></div>
-            </div>
+            </button>
         </div>
         <div class="divider"></div>
         <div class="additionals">

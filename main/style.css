@@ -1,0 +1,187 @@
+main {
+    padding: 40px 59px 48px 59px;
+    background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+main .banner-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+main .banner-container .banner-container-text {
+    font-style: normal;
+    color: #111827;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+main .banner-container .banner-container-text h1 {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    font-family: 'Formular-Black';
+    margin: 0;
+}
+main .banner-container .banner-container-text div {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+main .banner-container .banner {
+    border-radius: 16px;
+    height: 350px;
+}
+main .banner-container .banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+main .calculator {
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    background: #F9FAFB;
+    padding: 24px 35.5px;
+    gap: 28px;
+}
+main .calculator .calculator-text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+    padding: 0 105.5px;
+}
+main .calculator .calculator-text .title {
+    font-family: 'Formular-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #111827;
+}
+main .calculator .calculator-text .description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #111827;
+}
+main .calculator .calculator-fields {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+main .calculator .calculator-fields .header {
+    grid-column: 1 / -1;
+}
+main .calculator .calculator-fields .field {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9CA3AF;
+
+    padding: 12px;
+    border: 2px solid #111827;
+    outline: none;
+    border-radius: 4px;
+    height: 20px;
+}
+main .calculator .calculator-fields .field.error {
+    border-color: #c30707;
+}
+main .calculator .calculator-fields input.field::placeholder {
+    color: #9CA3AF;
+}
+main .calculator .calculator-fields .field:focus {
+    color: #8B5CF6;
+    border-color: #8B5CF6;
+}
+main .calculator .calculator-fields .field:focus::placeholder {
+    color: #8B5CF6;
+}
+main .calculator .calculator-fields > div {
+    display: contents;
+}
+main .calculator .calculator-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    background: #8B5CF6;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+
+    font-family: 'Formular-Bold';
+    color: #F9FAFB;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+main .calculator .calculator-button.disable {
+    pointer-events: none;
+    background: #DDD6FE;
+    cursor: wait;
+}
+main .calculator .calculator-button:active {
+    background: #6D28D9;
+}
+main .calculator .calculator-button > * {
+    display: none;
+}
+main .calculator .calculator-button > *.active {
+    display: block;
+}
+main .calculator .response {
+    display: none;
+}
+main .calculator .response.show {
+    display: block;
+}
+main.open-menu-mobile {
+    isolation: isolate;
+    filter: brightness(0.5);
+    pointer-events: none;
+}
+
+@media(min-width: 1024px) {
+    main {
+        padding: 48px 128px;
+    }
+    main .calculator {
+        padding: 24px 99.5px;
+    }
+}
+
+@media(min-width: 1536px) {
+    main {
+        padding: 48px 255px;
+    }
+    main .banner-container {
+        flex-direction: row;
+        gap: 16px;
+    }
+    main .banner-container .banner {
+        background: url('/img/banner.png') center no-repeat;
+        object-fit: contain;
+        height: auto;
+    }
+    main .banner-container .banner img {
+        display: none;
+    }
+    main .banner-container > div {
+        flex: 1;
+    }
+    main .calculator {
+        padding: 24px 210px;
+    }
+}

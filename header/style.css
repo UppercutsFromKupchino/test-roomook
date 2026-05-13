@@ -16,6 +16,7 @@ header.open-menu-mobile .header-bottom {
     padding: 0 63px 24px 63px;
     background-color: #F9FAFB;
     border-radius: 0px 0px 16px 16px;
+    z-index: 10;
 }
 /* */
 
@@ -114,6 +115,10 @@ header .header-bottom .buttons .button-application {
     background: #8B5CF6;
     border-radius: 4px;
     cursor: pointer;
+    border: 0;
+}
+header .header-bottom .buttons .button-application:active {
+    background: #6D28D9;
 }
 header .header-bottom .additionals {
     display: flex;
