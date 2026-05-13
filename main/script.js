@@ -33,7 +33,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 sendCalculatorButton.classList.toggle('disable');
                 responseCalculator.classList.add('show');
                 responseCalculator.textContent = JSON.stringify(json);
-                // console.log(json);
             }).catch((error) => {
                 sendCalculatorButton.classList.toggle('disable');
                 console.log(error);

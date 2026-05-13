@@ -36,7 +36,7 @@
         </div>
         <button class="calculator-button">
             <div class="active">Заказать расчёт</div>
-            <img />
+            <img src="/img/loader.svg" />
         </button>
         <div class="response"></div>
     </div>

@@ -1,0 +1,14 @@
+<svg width="137" height="24" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="4" width="24" height="16" rx="2" fill="#F9FAFB">
+    <animate attributeName="height" values="16;24;16" dur="1.2s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
+    <animate attributeName="y" values="4;0;4" dur="1.2s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
+  </rect>
+  <rect x="56.5" y="4" width="24" height="16" rx="2" fill="#F9FAFB">
+    <animate attributeName="height" values="16;24;16" dur="1.2s" begin="0.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
+    <animate attributeName="y" values="4;0;4" dur="1.2s" begin="0.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
+  </rect>
+  <rect x="113" y="4" width="24" height="16" rx="2" fill="#F9FAFB">
+    <animate attributeName="height" values="16;24;16" dur="1.2s" begin="0.8s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
+    <animate attributeName="y" values="4;0;4" dur="1.2s" begin="0.8s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
+  </rect>
+</svg>

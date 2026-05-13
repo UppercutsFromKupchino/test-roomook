@@ -135,10 +135,16 @@ main .calculator .calculator-button.disable {
 main .calculator .calculator-button:active {
     background: #6D28D9;
 }
-main .calculator .calculator-button > * {
+main .calculator .calculator-button div {
+    display: block;
+}
+main .calculator .calculator-button img {
     display: none;
 }
-main .calculator .calculator-button > *.active {
+main .calculator .calculator-button.disable div {
+    display: none;
+}
+main .calculator .calculator-button.disable img {
     display: block;
 }
 main .calculator .response {
