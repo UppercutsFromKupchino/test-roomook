@@ -1,0 +1,9 @@
+version: '1.0'
+
+services:
+  php-server:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app   # монтируем текущую папку для live-обновлений

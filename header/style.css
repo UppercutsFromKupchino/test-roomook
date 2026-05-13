@@ -1,0 +1,119 @@
+header {
+    padding: 24px 192px;
+    background-color: #F9FAFB;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+header .header-top {
+    display: flex;
+    justify-content: space-between;
+}
+header .header-top-logo {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+header .header-top-company-name {
+    font-family: 'Formular-Black';
+    color: #111827;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+}
+header .logo-container {
+    height: 74px;
+    width: 50px;
+}
+header .header-top-info {
+    display: flex;
+    gap: 12px;
+}
+header .header-top-info .additional {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #111827;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+header .header-top-info .divider {
+    height: 100%;
+    width: 1px;
+    background-color: #A78BFA;
+}
+header .header-top-info .basic {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+header .header-top-info .basic .phone {
+    font-family: 'Formular-Black';
+    color: #111827;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 40px;
+}
+header .header-top-info .basic .phone-additional {
+    color: #111827;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+}
+header .header-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+header .header-bottom .menu-chips {
+    display: flex;
+    gap: 24px;
+    color: #111827;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+header .header-bottom .menu-chips .chip {
+    cursor: pointer;
+}
+header .header-bottom .menu-chips .chip:hover {
+    color: #8B5CF6;
+}
+header .header-bottom .button-application {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 28px;
+    background: #8B5CF6;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F9FAFB;
+    font-family: 'Formular-Bold';
+    cursor: pointer;
+}
+
+@media(max-width: 1536px) {
+    header {
+        padding: 24px 256px;
+    }
+}
+
+@media(max-width: 1024px) {
+    header {
+        padding: 24px 128px;
+    }
+}
+
+@media(max-width: 758px) {
+    header {
+        padding: 24px 128px;
+    }
+}
