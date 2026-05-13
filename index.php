@@ -11,8 +11,21 @@
 </head>
 <body>
     <?
-    if(file_exists($_SERVER['DOCUMENT_ROOT'] . '/header/index.php')) {
-        require_once $_SERVER['DOCUMENT_ROOT'] . '/header/index.php';
+    // Подключение header
+    if(file_exists($_SERVER['DOCUMENT_ROOT'] . '/header/template.php')) {
+        require_once $_SERVER['DOCUMENT_ROOT'] . '/header/template.php';
+    }
+    ?>
+    <?
+    // Подключение main content
+    if(file_exists($_SERVER['DOCUMENT_ROOT'] . '/main/template.php')) {
+        require_once $_SERVER['DOCUMENT_ROOT'] . '/main/template.php';
+    }
+    ?>
+    <?
+    // Подключение footer
+    if(file_exists($_SERVER['DOCUMENT_ROOT'] . '/footer/template.php')) {
+        require_once $_SERVER['DOCUMENT_ROOT'] . '/footer/template.php';
     }
     ?>
 </body>

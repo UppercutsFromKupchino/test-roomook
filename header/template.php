@@ -5,7 +5,7 @@
     <div class="header-top">
         <div class="header-top-logo">
             <a class="logo-container" href="/">
-                <img src="/img/header-logo.svg" />
+                <img src="/img/company-logo.svg" />
             </a>
             <div class="header-top-company-name">FromBoard Delivery</div>
         </div>
@@ -16,7 +16,7 @@
                 <div>1 $ = 93 ₽ | 1 € = 99 ₽ | 1 ¥ = 13 ₽</div>
             </div>
             <div class="divider"></div>
-            <div class="basic">
+            <div class="basic-info">
                 <div class="phone">+7 (800) 123 45-67</div>
                 <div class="phone-additional">Звонки по России бесплатны</div>
                 <div class="menu-container" id="menu-container">

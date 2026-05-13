@@ -43,10 +43,10 @@ header .header-top-logo {
     gap: 4px;
     align-items: center;
 }
-header .header-top-info .basic .phone-additional {
+header .header-top-info .basic-info .phone-additional {
     display: none;
 }
-header .header-top-info .basic .phone {
+header .header-top-info .basic-info .phone {
     font-family: 'Formular-Black';
     color: #111827;
     font-style: normal;
@@ -54,16 +54,16 @@ header .header-top-info .basic .phone {
     font-size: 20px;
     line-height: 28px;
 }
-header .header-top-info .basic {
+header .header-top-info .basic-info {
     display: flex;
     gap: 16px;
     align-items: center;
 }
-header .header-top-info .basic .menu-container img {
+header .header-top-info .basic-info .menu-container img {
     display: none;
     cursor: pointer;
 }
-header .header-top-info .basic .menu-container img.active {
+header .header-top-info .basic-info .menu-container img.active {
     display: block;
 }
 header .header-bottom {
@@ -152,18 +152,18 @@ header .header-bottom .additionals div:nth-child(3) {
         width: auto;
         padding: 0;
     }
-    header .header-top-info .basic {
+    header .header-top-info .basic-info {
         flex-direction: column;
         gap: 4px;
     }
-    header .header-top-info .basic .phone {
+    header .header-top-info .basic-info .phone {
         font-size: 24px;
         line-height: 32px;
     }
-    header .header-top-info .basic .menu-container {
+    header .header-top-info .basic-info .menu-container {
         display: none;
     }
-    header .header-top-info .basic .phone-additional {
+    header .header-top-info .basic-info .phone-additional {
         display: block;
         font-size: 16px;
         line-height: 24px;
@@ -204,14 +204,14 @@ header .header-bottom .additionals div:nth-child(3) {
         background-color: #A78BFA;
         width: 1px;
     }
-    header .header-top-info .basic {
+    header .header-top-info .basic-info {
         justify-content: center;
     }
-    header .header-top-info .basic .phone {
+    header .header-top-info .basic-info .phone {
         font-size: 30px;
         line-height: 36px;
     }
-    header .header-top-info .basic .phone-additional {
+    header .header-top-info .basic-info .phone-additional {
         font-size: 20px;
         line-height: 28px;
     }
@@ -251,11 +251,11 @@ header .header-bottom .additionals div:nth-child(3) {
         width: 1px;
         background-color: #A78BFA;
     }
-    header .header-top-info .basic {
+    header .header-top-info .basic-info {
         flex-direction: column;
         justify-content: space-between;
     }
-    header .header-top-info .basic .phone-additional {
+    header .header-top-info .basic-info .phone-additional {
         color: #111827;
         font-style: normal;
         font-weight: 300;
@@ -292,66 +292,3 @@ header .header-bottom .additionals div:nth-child(3) {
         cursor: pointer;
     }
 }
-
-/* @media(max-width: 1536px) {
-    header {
-        padding: 24px 256px;
-    }
-    header .header-top-info .basic .phone {
-        font-size: 30px;
-        line-height: 36px;
-    }
-    header .header-top-info .basic .phone-additional {
-        font-size: 20px;
-        line-height: 28px;
-    }
-}
-
-@media(max-width: 1024px) {
-    header {
-        padding: 24px 128px;
-        gap: 12px;
-    }
-    header .divider-md {
-        display: block;
-        width: 100%;
-        height: 2px;
-        background-color: #A78BFA;
-    }
-    header .header-top-info .additional {
-        display: none;
-    }
-    header .header-top-info .divider {
-        display: none;
-    }
-    header .header-bottom-md {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 4px 32px;
-        gap: 8px;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 20px;
-        color: #111827;
-    }
-    header .header-bottom-md div {
-        text-align: center;
-    }
-    header .header-bottom-md div:nth-child(1) {
-        flex: 1
-    }
-    header .header-bottom-md div:nth-child(2) {
-        flex: 1
-    }
-    header .header-bottom-md div:nth-child(3) {
-        white-space: nowrap;
-    }
-}
-
-@media(max-width: 758px) {
-    header {
-        padding: 24px 128px;
-    }
-} */

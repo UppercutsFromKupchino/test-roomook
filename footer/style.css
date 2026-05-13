@@ -1,0 +1,156 @@
+footer {
+    padding: 40px 128px 44px 128px;
+    background: #111827;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+footer .menu-chips {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+footer .menu-chips .chip {
+    font-family: 'Formular-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F9FAFB;
+    cursor: pointer;
+}
+footer .menu-chips .chip:hover {
+    color: #8B5CF6;
+}
+footer .footer-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+footer .footer-info .basic-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+footer .footer-info .basic-info .phone {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    color: #F9FAFB;
+    font-family: 'Formular-Black';
+}
+footer .footer-info .basic-info .phone-additional {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #F9FAFB;
+}
+footer .footer-info .company-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+footer .footer-info .company-info .company-logo {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+footer .footer-info .company-info .company-name {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #F9FAFB;
+    font-family: 'Formular-Black';
+}
+footer .footer-info .company-info .rights {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #F9FAFB;
+}
+footer .oferta {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+footer .oferta br {
+    display: none;
+}
+footer .oferta .oferta-text {
+    color: #4B5563;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    font-family: 'Formular-Light';
+}
+footer .oferta .ad {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #6B7280;
+}
+footer .footer-info .menu-chips {
+    display: none;
+}
+
+@media(min-width: 1024px) {
+    footer {
+        padding: 40px 128px;
+    }
+    footer .footer-info {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width: 100%;
+    }
+    footer .footer-info .company-info {
+        align-items: flex-start;
+    }
+}
+@media(min-width: 1536px) {
+    footer {
+        padding: 40px 192px;
+    }
+    footer .menu-chips {
+        display: none;
+    }
+    footer .footer-info .menu-chips {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+    }
+    footer .oferta {
+        flex-direction: row;
+    }
+    footer .oferta .oferta-text {
+        text-align: left;
+        width: calc(100% - 250px);
+    }
+    footer .oferta .ad {
+        text-align: right;
+        width: 242px;
+    }
+    footer .oferta br {
+        display: block;
+    }
+}
+@media(min-width: 1920px) {
+    footer .oferta {
+        gap: 148px;
+    }
+}
