@@ -1,5 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
     const windowWidth = window.innerWidth;
+    const buttonApplication = document.querySelector('.button-application');
+    buttonApplication.addEventListener('click', () => {
+        alert('Здесь должна быть подача заявки');
+    })
 
     if(windowWidth < 1024) {
         const header = document.querySelector('header');
